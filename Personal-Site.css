@@ -1,0 +1,152 @@
+.home {
+    width: 100%;
+    height: 800px;
+    background-image: url(beach.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about {
+    width: 100%;
+    height: 800px;
+    background-image: url(personal-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    font-size: 18px;
+    color: white;
+    font-family: 'Barlow', 'san-serif';
+    display: flex;
+    justify-content: flex-start;
+}
+
+#nav-home, #nav-about-me {
+    padding: 0.5% 0.5%;
+    margin: 1%;
+    background-color: transparent;
+    border: 1px solid black;
+    cursor: pointer;
+    text-decoration: none;
+}
+/*
+#nav-home:hover, #nav-about-me:hover {
+    opacity: 0.2;
+}
+*/
+  
+a:visited { 
+    color: white;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: black;
+    transform: scale(1.05);
+    opacity: 0.3;
+}
+  
+.main-about{
+    height: 50%;
+    margin: 30% 10% -2%;
+
+}
+
+#look-further {
+    font-size: 50px;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+}
+
+.resume-download {
+    height: 35px;
+    background-color: transparent;
+    border-color: black;
+    cursor: pointer;
+    color: white;
+    padding: 0.5%;
+    font-size: 18px;
+    margin-left: 12%;
+    font-family: 'Barlow', 'sans-serif';
+}
+
+.resume-download:hover {
+    color: black;
+    opacity: 0.3;
+    transform: scale(1.05);
+}
+  
+.main-div-home {
+    font-size: 80px;
+    color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+}
+
+#name {
+    font-size: 8vw;
+    font-family: 'Fjalla One', sans-serif; 
+    padding: 3%;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+  
+#info {
+    font-size: 3vw;
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.social-footer  {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+  
+.fa {
+    padding: 15px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px;
+    border-radius: 80%;
+}
+  
+    .fa:hover {
+      opacity: 0.6;
+      transform: scale(1.05);
+    }
+    
+    .fa-github, .fa-github:visited {
+      background: #23282E;
+      color: white;
+    }
+  
+    .fa-facebook, .fa-facebook:visited {
+      background: #4266B2;
+      color: white;
+    }
+  
+    .fa-instagram, .fa-instagram:visited {
+      background: linear-gradient(to bottom left, #5C6CB3, #DB4865,  #F6B25C);
+      color: white;
+    }
+  
+    .fa-linkedin, .fa-linkedin:visited {
+      background: #0371AE;
+      color: white;
+    }
+  
+    .fa-envelope, .fa-envelope:visited {
+      background: #D5493C;
+      color: white;
+    }
+  
